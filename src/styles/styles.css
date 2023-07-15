@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.app h2 {
+  color: #e384ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content textarea {
+  border: 2px solid #1d10ade5;
+  height: 200px;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.output p {
+  text-align: center;
+  color: #7519a0;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.btn {
+  border: none;
+  height: 60px;
+  width: 120px;
+  border-radius: 12px;
+  background: #7519a0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.footer {
+  background: #202020c5;
+ 
+  padding: 12px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+}
